@@ -28,13 +28,11 @@ fastify.get("/poll", async (request, reply) => {
   });
 });
 
-fastify.get("/confirm", async (request, reply) => {
-  const response = await loginUtils.confirm(
-    request.headers["user-agent"],
-    request.query["key"]
-  );
+fastify.get("/userinfo", async (request, reply) => {
+  const response = loginUtils.userData.get(request.query["key"])
   reply.send({
-    code: response,
+    img: response[0],
+    name: response[1],
   });
 });
 
