@@ -1,0 +1,260 @@
+.qrcode-loading[data-v-5f77e75b] {
+  background-image: url(//s1.hdslb.com/bfs/static/jinkela/passport-pc/assets/loadTV.gif);
+  background-color: #f7f7f7;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.qrcode-loading > div[data-v-5f77e75b] {
+  display: none;
+}
+.login-scan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-scan__tv-img {
+  margin-left: -80px;
+  background-image: url(//s1.hdslb.com/bfs/static/jinkela/passport-pc/assets/tv.gif);
+  background-position: -6px -18px;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 44px;
+}
+.login-scan__qrcode {
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  width: 158px;
+  height: 158px;
+  padding: 8px;
+  border: 0.855491px solid #e3e5e7;
+  border-radius: 6.84393px;
+}
+.login-scan__qrcode .qrcode__tip {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  background: hsla(0, 0%, 100%, 0.9);
+}
+.login-scan__qrcode .qrcode__tip img {
+  margin-bottom: 8px;
+  padding: 14px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 30px;
+}
+.login-scan__qrcode .qrcode__tip span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  color: #61666d;
+}
+.login-scan__qrcode .qrcode-loading {
+  background-image: url(//s1.hdslb.com/bfs/static/jinkela/passport-pc/assets/loadTV.gif);
+  background-color: #f7f7f7;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.login-scan__qrcode .scan-tips-icon {
+  position: absolute;
+  height: 202px;
+  width: 386px;
+  background: #fff
+    url(//s1.hdslb.com/bfs/static/jinkela/passport-pc/assets/qr-tips.png)
+    no-repeat;
+  background-size: 100% 100%;
+  top: -44px;
+  left: -114px;
+}
+.login-scan__txt {
+  position: relative;
+  width: 386px;
+  height: 90px;
+}
+.login-scan__txt_bg {
+  position: absolute;
+  top: -20px;
+  width: 386px;
+  height: 115px;
+  background-image: url(//s1.hdslb.com/bfs/static/jinkela/passport-pc/assets/2233pic.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.login-scan__txt p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #61666d;
+}
+.login-protocol {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #9499a0;
+}
+.login-protocol p {
+  display: flex;
+  justify-content: center;
+}
+.login-protocol label {
+  margin: 0 6px;
+}
+.b-footer-wrap {
+  width: 850px;
+}
+.login_mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 2000;
+}
+.login_mask[hide] {
+  display: none;
+}
+.login_wp {
+  width: 900px;
+  min-height: calc(100vh - 538px);
+  margin: 0 auto;
+  padding-top: 82px;
+  padding-bottom: 108px;
+}
+
+.login__main .clickable {
+  color: #00a1d6;
+}
+
+
+
+.top-header[data-v-7741e2c0] {
+  width: 100%;
+  height: 106px;
+  z-index: 10;
+  background: linear-gradient(#2ca0d8, #2ca0d8 86px, #fff 0, #fff);
+}
+.top-img[data-v-7741e2c0] {
+  width: 980px;
+  height: 106px;
+  margin: 0 auto;
+  background: url(//s1.hdslb.com/bfs/static/jinkela/passport-pc/assets/rl_top.png)
+    no-repeat;
+}
+.clickable {
+  cursor: pointer;
+  color: #00aeec;
+}
+.clickable[disabled] {
+  pointer-events: none;
+}
+.clickable[disabled],
+.disable {
+  color: #c9ccd0 !important;
+  cursor: not-allowed;
+}
+.b-footer-wrap {
+  width: 950px;
+}
+a,
+body,
+dd,
+div,
+html,
+i,
+img,
+input,
+li,
+ol,
+p,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+body {
+  min-height: 100%;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  line-height: 1;
+}
+q:after,
+q:before {
+  content: none;
+}
+a {
+  color: #7e8c8d;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+
+
+.login-scan_wp {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.login-scan-img {
+  width: 3.7333rem;
+  height: 2.6667rem;
+  margin-top: 1.7067rem;
+  margin-bottom: 0.9333rem;
+}
+.login-scan-img_error {
+  background: url(//s1.hdslb.com/bfs/static/jinkela/passport/assets/scan-fail.png) no-repeat;
+  background-size: 100% 100%;
+}
+.login-scan-text {
+  font-size: 0.4267rem;
+  font-weight: 400;
+  line-height: 0.5867rem;
+  color: #212121;
+}
+.login-scan-btn {
+  margin-top: 0.5333rem;
+  width: 8.72rem;
+  height: 1.1733rem;
+  text-align: center;
+  line-height: 1.1733rem;
+  font-size: 0.4267rem;
+  border-radius: 0.1067rem;
+  background: #FF6699;
+  color: #ffffff;
+}
