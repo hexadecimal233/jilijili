@@ -29,7 +29,7 @@ fastify.get("/poll", async (request, reply) => {
 });
 
 fastify.get("/userinfo", async (request, reply) => {
-  const response = loginUtils.userData.get(request.query["key"])
+  const response = loginUtils.userData.get(request.query["key"]);
   reply.send({
     img: response[0],
     name: response[1],
@@ -41,6 +41,6 @@ fastify.register(require("@fastify/static"), {
   prefix: "/",
 });
 
-fastify.listen({ port: 3000 }, (err, address) => {
+fastify.listen({ port: 3000, host: "0.0.0.0" }, (err, address) => {
   if (err) throw err;
 });

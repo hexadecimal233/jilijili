@@ -54,7 +54,7 @@ const functions = {
       const cookie = resp.headers.getSetCookie();
       const r1 = await fetch(resp0.data.url);
       cookie.push(r1.headers.getSetCookie());
-      cookie.pop();
+      cookie.pop(); //移除最后的空数组
       data.set(key, await getUserInfo(userAgent, cookie));
     }
 

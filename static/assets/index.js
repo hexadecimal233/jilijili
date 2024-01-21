@@ -30,7 +30,6 @@ function getUrlVars() {
 }
 
 function poll() {
-  console.log(getUrlVars()["callbackUrl"]);
   $.ajax({
     type: "get",
     url: "/poll",
